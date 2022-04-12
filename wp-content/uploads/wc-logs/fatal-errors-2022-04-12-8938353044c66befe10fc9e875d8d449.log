@@ -1,0 +1,44 @@
+2022-04-12T10:27:44+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\vendor/jetpack-autoloader/class-autoloader.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php:12
+Stack trace:
+#0 C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\src\Autoloader.php(37): require()
+#1 C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\google-listings-and-ads.php(37): Automattic\WooCommerce\GoogleListingsAndAds\Autoloader::init()
+#2 C:\xampp\htdocs\groceryweb\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\groceryweb\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('google-listings...')
+#4 C:\xampp\htdocs\groceryweb\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(421): activate_plugin('google-listings...')
+#5 C:\xampp\htdocs\groceryweb\wp-includes\rest-api\class-wp-rest-server.php(1141): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#6 C:\xampp\htdocs\groceryweb\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/plugi...', Array, NULL)
+#7 C:\xampp\htdocs\groceryweb\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\groceryweb\wp-includes\rest-api.php(386): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#9 C:\xampp\htdocs\groceryweb\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#10 C:\xampp\htdocs\groceryweb\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\groceryweb\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\groceryweb\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#13 C:\xampp\htdocs\groceryweb\wp-includes\class-wp.php(758): WP->parse_request('')
+#14 C:\xampp\htdocs\groceryweb\wp-includes\functions.php(1310): WP->main('')
+#15 C:\xampp\htdocs\groceryweb\wp-blog-header.php(16): wp()
+#16 C:\xampp\htdocs\groceryweb\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php on line 12
+
+2022-04-12T10:28:05+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\vendor/jetpack-autoloader/class-autoloader.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php:12
+Stack trace:
+#0 C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\src\Autoloader.php(37): require()
+#1 C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\google-listings-and-ads.php(37): Automattic\WooCommerce\GoogleListingsAndAds\Autoloader::init()
+#2 C:\xampp\htdocs\groceryweb\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\groceryweb\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('google-listings...')
+#4 C:\xampp\htdocs\groceryweb\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(421): activate_plugin('google-listings...')
+#5 C:\xampp\htdocs\groceryweb\wp-includes\rest-api\class-wp-rest-server.php(1141): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#6 C:\xampp\htdocs\groceryweb\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/plugi...', Array, NULL)
+#7 C:\xampp\htdocs\groceryweb\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\groceryweb\wp-includes\rest-api.php(386): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#9 C:\xampp\htdocs\groceryweb\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#10 C:\xampp\htdocs\groceryweb\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\groceryweb\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\groceryweb\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#13 C:\xampp\htdocs\groceryweb\wp-includes\class-wp.php(758): WP->parse_request('')
+#14 C:\xampp\htdocs\groceryweb\wp-includes\functions.php(1310): WP->main('')
+#15 C:\xampp\htdocs\groceryweb\wp-blog-header.php(16): wp()
+#16 C:\xampp\htdocs\groceryweb\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\groceryweb\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php on line 12
+
